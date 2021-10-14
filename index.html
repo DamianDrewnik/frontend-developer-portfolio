@@ -23,11 +23,11 @@
   <body>
     <nav class="navigation">
       <div class="navigation__logo">&lt;devDamian/&gt;</div>
-      <div class="navigation__buttons">
-        <button class="navigation__button">Skills</button>
-        <button class="navigation__button">Projects</button>
-        <button class="navigation__button">Contact</button>
-      </div>
+      <ul class="navigation__links">
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a class="contact" href="#">Contact</a></li>
+      </ul>
     </nav>
     <section class="hero">
       <img
@@ -38,54 +38,67 @@
       <div class="hero__description">
         <div>Hi, I am</div>
         <div>Damian Drewnik</div>
-        <div></div>
-        FRONT-END Developer
+        <div>FRONT-END Developer</div>
       </div>
     </section>
     <section class="skills">
-      <div class="skills__box technologies">
-        <ul>
-          <h2>Front-end technologies:</h2>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Sass</li>
-          <li>Bootstrap</li>
-          <li>JavaScript</li>
-          <li>React (Currently Learning)</li>
-          <li>Git</li>
-        </ul>
-        <ul>
-          <h2>Other technologies:</h2>
-          <li>Python</li>
-          <li>Java</li>
-          <li>Odoo (ERP)</li>
-        </ul>
-      </div>
-      <div class="skills__box programs-and-tools">
-        <ul>
-          <h2>Programs and tools:</h2>
-          <li>Figma</li>
-          <li>VS Code</li>
-          <li>GitHub</li>
-          <li>GitLab</li>
-          <li>Prettier</li>
-          <li>ESLint</li>
-          <li>BEM</li>
-          <li>Scrum and Agile Methodologies</li>
-          <li>Waterfall Methodology</li>
-        </ul>
-      </div>
-      <div class="skills__box other-skills">
-        <ul>
-          <h2>Other Skills</h2>
-          <li>English: C1 (IELTS Certificate from July 2018)</li>
-          <li>Polish: Native</li>
-        </ul>
+      <h1>Skills:</h1>
+      <div class="skills__boxes">
+        <div class="skills__box technologies">
+          <ul>
+            <h2>Front-end technologies:</h2>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Sass</li>
+            <li>Bootstrap</li>
+            <li>JavaScript</li>
+            <li>React (Currently Learning)</li>
+            <li>Git</li>
+          </ul>
+          <ul>
+            <h2>Other technologies:</h2>
+            <li>Python</li>
+            <li>Java</li>
+            <li>Odoo (ERP)</li>
+          </ul>
+        </div>
+        <div class="skills__box programs-and-tools">
+          <ul>
+            <h2>Programs and tools:</h2>
+            <li>Figma</li>
+            <li>VS Code</li>
+            <li>GitHub</li>
+            <li>GitLab</li>
+            <li>Prettier</li>
+            <li>ESLint</li>
+            <li>BEM</li>
+            <li>Scrum and Agile Methodologies</li>
+            <li>Waterfall Methodology</li>
+          </ul>
+        </div>
+        <div class="skills__box other-skills">
+          <ul>
+            <h2>Other Skills</h2>
+            <li>English: C1 (IELTS July 2018)</li>
+            <li>Polish: Native</li>
+          </ul>
+        </div>
       </div>
     </section>
-    <section class="projects">
-      <div class="project project--1"></div>
-      <div class="project project--2"></div>
+    <section class="work">
+      <h1>Projects:</h1>
+      <div class="projects" id="projects">
+        <div class="project project--1">
+          <img
+            src="images/Frontend-Mentor-Sunnyside-agency-landing-page-1.png"
+            alt=""
+          />
+          
+        </div>
+        <div class="project project--2">
+          <img src="images/Frontend-Mentor-IP-Address-Tracker-1.png" alt="" />
+        </div>
+      </div>
     </section>
     <footer class="footer">
       <div class="email">drewnikdamian@gmail.com</div>
