@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  color: white;
+  color: black;
   background-color: #b1d4e0;
   font-size: 24px;
   display: -webkit-box;
@@ -21,7 +21,8 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
+  background-color: white;
 }
 
 .navigation {
@@ -42,7 +43,6 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #b1d4e0;
   min-height: 50px;
 }
 
@@ -62,7 +62,6 @@ body {
 
 .navigation .navigation__links li a {
   text-decoration: none;
-  color: white;
 }
 
 .hero {
@@ -80,13 +79,12 @@ body {
       -ms-flex-direction: row;
           flex-direction: row;
   width: 100%;
-  background-color: #145da0;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
 
 .skills {
-  background-color: #2e8bc0;
+  background-color: #004169;
   width: 100%;
   text-align: center;
 }
@@ -152,9 +150,7 @@ body {
 }
 
 .work {
-  background-color: #0c2d48;
   text-align: center;
-  color: white;
 }
 
 .work h1 {
@@ -280,9 +276,9 @@ body {
   width: 100%;
   min-height: 100px;
   background-color: #004169;
-  padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: 16px;
+  color: white;
 }
 
 .footer .footer__social {
