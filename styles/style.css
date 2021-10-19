@@ -43,7 +43,11 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  min-height: 50px;
+  min-height: 100px;
+}
+
+.navigation .navigation__logo {
+  color: #004169;
 }
 
 .navigation .navigation__links {
@@ -62,6 +66,23 @@ body {
 
 .navigation .navigation__links li a {
   text-decoration: none;
+  border: solid #004169;
+  border-radius: 100px;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 1rem;
+}
+
+.navigation .navigation__links li a:visited {
+  color: #004169;
+  background-color: white;
+}
+
+.navigation .navigation__links li a:hover {
+  color: white;
+  background-color: #004169;
+  -webkit-transition: 0.4s ease-out;
+  transition: 0.4s ease-out;
 }
 
 .hero {
@@ -198,8 +219,8 @@ body {
 
 .work .projects .project:hover {
   opacity: 0.7;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 
 .work .projects .project .project-image {
@@ -207,8 +228,8 @@ body {
   background-size: contain;
   width: 100%;
   border-radius: 15px;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
@@ -222,8 +243,8 @@ body {
   height: 100%;
   width: 100%;
   opacity: 0;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 
 .project:hover .overlay {
@@ -233,7 +254,7 @@ body {
 .text {
   position: absolute;
   border-radius: 15px;
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   color: white;
   font-size: 16px;
   padding: 16px 32px;

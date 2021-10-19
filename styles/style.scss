@@ -34,16 +34,31 @@ body {
   @include flexCenter(row);
   width: 96%;
   justify-content: space-between;
-  min-height: 50px;
+  min-height: 100px;
   .navigation__logo {
+    color: $indigo;
   }
   .navigation__links {
     display: flex;
     flex-direction: row;
     li {
       padding: 1rem;
-      a{
+      a {
         text-decoration: none;
+        border: solid $indigo;
+        border-radius: 100px;
+        font-size: 18px;
+        font-weight: 900;
+        padding: 1rem;
+        &:visited {
+          color: $indigo;
+          background-color: white;
+        }
+        &:hover {
+          color: white;
+          background-color: $indigo;
+          transition: 0.4s ease-out;
+        }
       }
     }
   }
@@ -63,7 +78,10 @@ body {
   background-color: $indigo;
   width: 100%;
   text-align: center;
-  h1{margin-top: 1rem;padding: 1rem;}
+  h1 {
+    margin-top: 1rem;
+    padding: 1rem;
+  }
   .skills__boxes {
     @include flexCenter(row);
     justify-content: space-around;
@@ -95,7 +113,10 @@ body {
 
 .work {
   text-align: center;
-  h1{margin-top: 1rem;padding: 1rem;}
+  h1 {
+    margin-top: 1rem;
+    padding: 1rem;
+  }
   .projects {
     @include flexCenter(row);
     justify-content: space-around;
@@ -104,18 +125,18 @@ body {
       width: 100%;
       margin: 1rem;
       @include flexCenter(row);
-      position: relative;&:hover{
+      position: relative;
+      &:hover {
         opacity: 0.7;
-        transition: .5s ease;
+        transition: 0.5s ease;
       }
       .project-image {
         display: block;
         background-size: contain;
         width: 100%;
         border-radius: 15px;
-        transition: .5s ease;
+        transition: 0.5s ease;
         backface-visibility: hidden;
-        
       }
     }
   }
@@ -129,32 +150,32 @@ body {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .project:hover .overlay {
   opacity: 1;
 }
 
-.text{
+.text {
   position: absolute;
   border-radius: 15px;
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   color: white;
   font-size: 16px;
   padding: 16px 32px;
   transform: translate(-50%, -50%);
   min-width: 150px;
-  &:hover{
+  &:hover {
     cursor: pointer;
     background-color: $indigo;
   }
 }
-.text--1{
+.text--1 {
   top: 70%;
   left: 30%;
 }
-.text--2{
+.text--2 {
   top: 70%;
   left: 70%;
 }
@@ -175,18 +196,12 @@ body {
     margin-top: 2rem;
     display: flex;
     justify-content: space-around;
-    padding-bottom: 2rem; 
-    .icon-color-transition{
-      &:hover{
+    padding-bottom: 2rem;
+    .icon-color-transition {
+      &:hover {
         cursor: pointer;
         color: black;
       }
     }
   }
 }
-
-
-
-
-
-
