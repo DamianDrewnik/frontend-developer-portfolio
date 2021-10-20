@@ -43,7 +43,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  min-height: 100px;
+  min-height: 125px;
 }
 
 .navigation .navigation__logo {
@@ -102,6 +102,28 @@ body {
   width: 100%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  min-height: 600px;
+}
+
+.hero .hero__description .introduction {
+  padding: 0.5rem;
+  font-size: 40px;
+}
+
+.hero .hero__description .introduction--1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.hero .hero__description .introduction--2 {
+  font-weight: 900;
+}
+
+.hero .hero__description .introduction--3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  background-color: #004169;
+  color: white;
 }
 
 .skills {

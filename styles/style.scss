@@ -34,7 +34,7 @@ body {
   @include flexCenter(row);
   width: 96%;
   justify-content: space-between;
-  min-height: 100px;
+  min-height: 125px;
   .navigation__logo {
     color: $indigo;
   }
@@ -68,9 +68,28 @@ body {
   @include flexCenter(row);
   width: 100%;
   justify-content: space-around;
+  min-height: 600px;
   .hero__img {
   }
   .hero__description {
+    .introduction {
+      padding: 0.5rem;
+      font-size: 40px;
+    }
+
+    .introduction--1 {
+      font-family: $roboto;
+      font-weight: 300;
+    }
+    .introduction--2 {
+      font-weight: 900;
+    }
+    .introduction--3 {
+      font-family: $roboto;
+      font-weight: 300;
+      background-color: $indigo;
+      color: white;
+    }
   }
 }
 
