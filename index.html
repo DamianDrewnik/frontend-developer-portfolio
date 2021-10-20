@@ -24,9 +24,9 @@
     <nav class="navigation">
       <div class="navigation__logo">&lt;devDamian/&gt;</div>
       <ul class="navigation__links">
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a class="contact" href="#">Contact</a></li>
+        <li><a class="primary-button" href="#skills">Skills</a></li>
+        <li><a class="primary-button" href="#projects">Projects</a></li>
+        <li><a class="primary-button" class="contact" href="#">Contact</a></li>
       </ul>
     </nav>
     <section class="hero">
@@ -35,83 +35,116 @@
         <div class="introduction introduction--2">Damian Drewnik</div>
         <div class="introduction introduction--3">FRONT-END DEVELOPER</div>
       </div>
-      <img
-        class="hero__img"
-        src="images/undraw-Hello.svg"
-        alt=""
-      />
-
+      <img class="hero__img" src="images/undraw-Hello.svg" alt="" />
     </section>
     <section class="skills" id="skills">
-      <h1>Skills:</h1>
-      <p>I am skilled in vanilla front-end technologies such as HTML, CSS and JavaScript. 
-        I am passionate about creating wonderful user experiences and interfaces that are comfortable to use by everyone in the web.
-        I am currently learning to work with React in order to advance my frontend skills to another level and make my projects even better. </p>
-      <div class="skills__boxes">
-        <div class="skills__box technologies">
-          <ul>
-            <h2>Front-end technologies:</h2>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Sass</li>
-            <li>Bootstrap</li>
-            <li>JavaScript</li>
-            <li>React (Currently Learning)</li>
-            <li>Git</li>
-          </ul>
-          <ul>
-            <h2>Other technologies:</h2>
-            <li>Python</li>
-            <li>Java</li>
-            <li>Odoo (ERP)</li>
-          </ul>
-        </div>
-        <div class="skills__box programs-and-tools">
-          <ul>
-            <h2>Programs and tools:</h2>
-            <li>Figma</li>
-            <li>Visual Studio Code</li>
-            <li>GitHub</li>
-            <li>GitLab</li>
-            <li>Prettier</li>
-            <li>ESLint</li>
-            <li>BEM</li>
-            <li>Scrum and Agile Methodologies</li>
-            <li>Waterfall Methodology</li>
-          </ul>
-        </div>
-        <div class="skills__box other-skills">
-          <ul>
-            <h2>Other Skills</h2>
-            <li>English: C1 (IELTS July 2018)</li>
-            <li>Polish: Native</li>
-          </ul>
-        </div>
+      <h1 class="main-header">Skills</h1>
+      <p class="main-paragraph">
+        I am skilled in vanilla front-end technologies such as HTML, CSS and
+        JavaScript. I am passionate about creating wonderful user experiences
+        and interfaces that are comfortable to use by everyone in the web. I am
+        currently learning to work with React in order to advance my frontend
+        skills to another level and make my projects even better.
+      </p>
+    </section>
+
+    <section class="skills__boxes">
+      <div class="skills__box technologies">
+        <ul>
+          <h2>Front-end technologies:</h2>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Sass</li>
+          <li>Bootstrap</li>
+          <li>JavaScript</li>
+          <li>React (Currently Learning)</li>
+          <li>Git</li>
+        </ul>
+        <ul>
+          <h2 class="other-technologies-header">Other technologies:</h2>
+          <li>Python</li>
+          <li>Java</li>
+          <li>Odoo (ERP)</li>
+        </ul>
+      </div>
+      <div class="skills__box programs-and-tools">
+        <ul>
+          <h2>Programs and tools:</h2>
+          <li>Figma</li>
+          <li>Visual Studio Code</li>
+          <li>GitHub</li>
+          <li>GitLab</li>
+          <li>Prettier</li>
+          <li>ESLint</li>
+          <li>BEM</li>
+          <li>Scrum and Agile Methodologies</li>
+          <li>Waterfall Methodology</li>
+        </ul>
+      </div>
+      <div class="skills__box other-skills">
+        <ul>
+          <h2>Other Skills</h2>
+          <li>English: C1 (IELTS July 2018)</li>
+          <li>Polish: Native</li>
+        </ul>
       </div>
     </section>
-    <section class="work" >
-      <h1>Projects:</h1>
-      <p>I work and practice every day to improve my porfolio projects and GitHub profile to stand out from the crowd. I love to create layouts based on someone's designs as well as creating them from scratch using my own imgagination. Here are some projects I've worked on recently.
-      </p>
+
+    <section class="work">
+      <div class="main-introduction">
+        <h1 class="main-header">Projects</h1>
+        <p class="main-paragraph">
+          I work and practice every day to improve my porfolio projects and
+          GitHub profile to stand out from the crowd. I love to create layouts
+          based on someone's designs as well as creating them from scratch using
+          my own imgagination. Here are some projects I've worked on recently.
+        </p>
+      </div>
       <div class="projects" id="projects">
         <div class="project project--1">
           <img
-          class="project-image"
+            class="project-image"
             src="images/Frontend-Mentor-Sunnyside-agency-landing-page-1.png"
             alt=""
           />
           <div class="overlay">
-            <a class="text text--1">GitHub Repository</a>
-            <a class="text text--2">Live Website</a>
+            <div class="project-description">
+              Landing page for Creative Agency using vanilla HTML, CSS and
+              JavaScript.
+            </div>
+            <a
+              href="https://github.com/DamianDrewnik/sunnyside-agency-landing-page"
+              class="text primary-button text--1"
+              >GitHub Repository</a
+            >
+            <a
+              href="https://vibrant-babbage-2924a6.netlify.app"
+              class="text primary-button text--2"
+              >Live Website</a
+            >
           </div>
         </div>
         <div class="project project--2">
-          <img 
-          class="project-image"
-          src="images/Frontend-Mentor-IP-Address-Tracker-1.png" alt="" />
+          <img
+            class="project-image"
+            src="images/Frontend-Mentor-IP-Address-Tracker-1.png"
+            alt=""
+          />
           <div class="overlay">
-            <div class="text text--1">GitHub Repository</div>
-            <div class="text text--2">Live Website</div>
+            <div class="project-description">
+              IP and domain address tracker using HTML, Sass, JavaScript,
+              Lefleat.js Map API and IP Geolocation API.
+            </div>
+            <a
+              href="https://github.com/DamianDrewnik/ip-address-tracker"
+              class="text primary-button text--1"
+              >GitHub Repository</a
+            >
+            <a
+              href="https://elated-yalow-f2c7d4.netlify.app"
+              class="text primary-button text--2"
+              >Live Website</a
+            >
           </div>
         </div>
       </div>
