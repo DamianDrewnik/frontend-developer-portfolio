@@ -47,6 +47,7 @@ body {
   font-weight: 900;
   padding: 1rem;
   color: $indigo;
+  transition: 0.5s ease-out;
   &:visited {
     color: $indigo;
     background-color: white;
@@ -54,7 +55,6 @@ body {
   &:hover {
     color: white;
     background-color: $indigo;
-    transition: 0.4s ease-out;
   }
 }
 
@@ -179,9 +179,10 @@ body {
       margin: 2rem;
       @include flexCenter(row);
       position: relative;
+      transition: 0.5s ease;
       &:hover {
         opacity: 1;
-        transition: 0.5s ease;
+        
       }
       .project-image {
         display: block;
@@ -272,11 +273,11 @@ body {
       border: solid white;
       padding: 1rem;
       border-radius: 50%;
+      transition: 0.5s ease;
       &:hover {
         cursor: pointer;
         color: $indigo;
         background-color: white;
-        transition: 0.5s ease;
       }
     }
   }
