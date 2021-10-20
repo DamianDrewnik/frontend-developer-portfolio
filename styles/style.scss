@@ -264,10 +264,18 @@ body {
     display: flex;
     justify-content: space-around;
     padding-bottom: 2rem;
-    .icon-color-transition {
+    a {
+      color: white;
+    }
+    .social-media-icon {
+      border: solid white;
+      padding: 1rem;
+      border-radius: 50%;
       &:hover {
         cursor: pointer;
-        color: black;
+        color: $indigo;
+        background-color: white;
+        transition: 0.5s ease;
       }
     }
   }

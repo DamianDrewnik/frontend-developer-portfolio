@@ -433,8 +433,21 @@ body {
   padding-bottom: 2rem;
 }
 
-.footer .footer__social .icon-color-transition:hover {
+.footer .footer__social a {
+  color: white;
+}
+
+.footer .footer__social .social-media-icon {
+  border: solid white;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.footer .footer__social .social-media-icon:hover {
   cursor: pointer;
-  color: black;
+  color: #004169;
+  background-color: white;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 /*# sourceMappingURL=style.css.map */
